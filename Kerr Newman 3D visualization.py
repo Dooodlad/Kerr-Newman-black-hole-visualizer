@@ -2,9 +2,6 @@
 KERR-NEWMAN EXACT BOYER-LINDQUIST METRIC VISUALIZER
 ====================================================
 
-This version removes the old toy-model radial deformation.
-It computes the Kerr-Newman metric quantities in geometric units G = c = 1:
-
     Sigma = r^2 + a^2 cos^2(theta)
     Delta = r^2 - 2 M r + a^2 + Q^2
     A     = (r^2 + a^2)^2 - a^2 Delta sin^2(theta)
@@ -27,7 +24,7 @@ Important limitation:
 The plot is an exact Boyer-Lindquist coordinate visualization of surfaces,
 coordinate lines, horizons, ergosphere, and frame-dragging field values.
 It is NOT an isometric embedding of the full 4D Lorentzian spacetime into 3D
-Euclidean space, because that is not generally possible.
+Euclidean space.
 """
 
 import numpy as np

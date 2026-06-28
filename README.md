@@ -1,2 +1,2 @@
 #Schwarzschild-black-hole-visualizer
-Interactive 2D visualization Schwarzschild black hole spacetime with real metric components
+Interactive 3D visualization Schwarzschild black hole spacetime with almost real metric components

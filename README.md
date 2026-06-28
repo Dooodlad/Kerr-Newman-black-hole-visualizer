@@ -1,6 +1,6 @@
 # Kerr-Newman 3D Visualization
 
-An interactive 3D visualizer for the **Kerr-Newman** metric (rotating and charged black hole) in Boyer-Lindquist coordinates. No geodesic included.
+An interactive 2D and 3D visualizer for the **Kerr-Newman** metric (rotating and charged black hole) in Boyer-Lindquist coordinates. No geodesic included. 
 
 ### Features
 - Exact computation of Kerr-Newman metric quantities in geometric units (\(G = c = 1\))
@@ -20,6 +20,7 @@ Visual amplification is applied to coordinate lines for better clarity and aesth
 This tool is designed for educational purposes and intuitive exploration of rotating charged black holes. 
 
 #update 1: 2D Schwarzschild black hole + white hole simulation.
+#update 2: 3D Schwarzschild black hole + white hole simulation. 
 
 ### Requirements
 ```bash

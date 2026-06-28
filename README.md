@@ -19,6 +19,8 @@ Visual amplification is applied to coordinate lines for better clarity and aesth
 
 This tool is designed for educational purposes and intuitive exploration of rotating charged black holes. 
 
+#update 1: 2D Schwarzschild black hole + white hole simulation.
+
 ### Requirements
 ```bash
 pip install numpy matplotlib

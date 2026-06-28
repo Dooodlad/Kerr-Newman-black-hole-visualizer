@@ -1,5 +1,5 @@
 #Schwarzschild-black-hole-visualizer
-Interactive 3D visualization Schwarzschild black hole spacetime with almost real metric components
+Interactive 3D visualization Schwarzschild black hole spacetime
 #How to use
 1. Install mathplotlib
 2. run the python file.

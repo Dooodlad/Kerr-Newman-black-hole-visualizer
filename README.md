@@ -1,12 +1,24 @@
-#Schwarzschild-black-hole-visualizer
-Interactive 3D visualization Schwarzschild black hole spacetime - no geodesic.
+# Kerr-Newman 3D Visualization
 
-#How to use
-1. Install mathplotlib
-2. run the python file.
-3. Inside the file, there are controls:
-- m slider: mass
-- Q slider: charge
-- a slider: spin
-- Domain r_max slider: zoom out or in.
-- checkboxes for hiding/showing layers of the graph.
+An interactive 3D visualizer for the **Kerr-Newman** metric (rotating and charged black hole) in Boyer-Lindquist coordinates.
+
+### Features
+- Exact computation of Kerr-Newman metric quantities in geometric units (\(G = c = 1\))
+- Real-time interactive 3D plot with:
+  - Coordinate grid lines (r, θ, φ)
+  - Inner and outer horizons
+  - Ergosphere surface
+  - Frame-dragging (ZAMO angular velocity) arrows
+  - Ring singularity
+- Adjustable parameters: Mass \(M\), Spin \(a\), Charge \(Q\), domain size, line width, and transparency
+
+# Important Notes
+
+Metric quantities (g_{\mu\nu}, α, ω, horizons, etc.) are calculated exactly.
+Visual amplification is applied to coordinate lines for better clarity and aesthetics (not a pure isometric embedding).
+
+This tool is designed for educational purposes and intuitive exploration of rotating charged black holes. 
+
+### Requirements
+```bash
+pip install numpy matplotlib

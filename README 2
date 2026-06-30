@@ -1,0 +1,59 @@
+Introduction to the 3D Schwarzschild White Hole Model
+Core Concept
+This visualization simulates curved spacetime around a Schwarzschild black hole using a unique approach: employing the inverse of the metric coefficient (1/α) to map and highlight the structure of spacetime.
+
+The Schwarzschild Metric Coefficient
+In Schwarzschild spacetime, the metric coefficient is:
+
+text
+α² = 1 - 2GM/(r c²)
+Where:
+
+r: radial distance from the center
+
+M: mass of the object
+
+G: gravitational constant
+
+c: speed of light
+
+Why Use 1/α?
+Using the inverse of α instead of α provides several advantages:
+
+Emphasizes the horizon: As r → r_s (Schwarzschild radius), α → 0, so 1/α → ∞. This makes the event horizon dramatically visible as regions where the grid lines "blow up" to infinity.
+
+Reveals asymptotic regions: The colored segments (Regions 1-4) show where |1/α| ≥ 2, highlighting zones where spacetime curvature becomes extreme.
+
+Enables folded mapping: When R < r_s, the folding technique maps different radial intervals onto the same physical space, allowing visualization of multiple asymptotic regions simultaneously.
+
+What You See
+Black grid lines: The neutral spacetime fabric, distorted by gravity but visible everywhere
+
+Colored segments: Four asymptotic regions showing where 1/α approaches infinity:
+
+Orange (Region 1): Outside → Event Horizon (∞ at H)
+
+Purple (Region 2): Event Horizon → Singularity (∞ at S)
+
+Blue (Region 3): Singularity → Event Horizon (∞ at H)
+
+Green (Region 4): Event Horizon → Outside → Infinity
+
+Blue sphere: The physical radius R marker
+
+Red dashed sphere: The event horizon r_s = 2GM/c²
+
+White Hole Mode
+When enabled, the colored asymptotic segments are shown only in the upper half (z ≥ 0), revealing the white hole structure—a time-reversed version of the black hole where matter emerges from the singularity.
+
+Interactive Controls
+Mass Slider: Adjust the black hole mass (0.1-20 solar masses)
+
+Radius Slider: Change the physical radius R
+
+Checkboxes: Toggle visibility of spheres, grid lines, arrows, and white hole mode
+
+Region Checkboxes: Select which asymptotic regions to display
+
+This visualization helps build intuition about how spacetime curvature behaves near black holes and how mathematical transformations like 1/α can reveal hidden structures in general relativity.
+
